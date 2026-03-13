@@ -23,7 +23,7 @@ jobs:
       - name: Build App
         run: |
           xcodebuild \
-            -project "BayTech_Admin_SwiftUI_Files/BayTech Admin.xcodeproj" \
+            -project "BayTech_Admin_SwiftUI_Files/Baytech Admin.xcodeproj" \
             -scheme "BayTech Admin" \
             -destination 'platform=iOS Simulator,name=iPhone 15' \
             build
