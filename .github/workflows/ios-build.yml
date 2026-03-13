@@ -3,35 +3,27 @@ name: iOS Build
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   build:
-    runs-on: macos-14
+    runs-on: macos-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Show Project Files
-        run: |
-          echo "PWD:"
-          pwd
-          echo "ROOT:"
-          ls -la
-          echo "XCODEPROJ:"
-          find . -name "*.xcodeproj"
-          echo "XCWORKSPACE:"
-          find . -name "*.xcworkspace"
+      - name: Select Xcode
+        run: sudo xcode-select -switch /Applications/Xcode.app
 
-      - name: Show Xcode Version
-        run: xcodebuild -version
+      - name: Check files
+        run: |
+          pwd
+          find . -maxdepth 3 -name "*.xcodeproj" -o -name "*.xcworkspace"
 
       - name: Build App
         run: |
           xcodebuild \
-            -project "./BayTech Admin.xcodeproj" \
+            -project "BayTech Admin/BayTech Admin.xcodeproj" \
             -scheme "BayTech Admin" \
             -destination 'platform=iOS Simulator,name=iPhone 15' \
             build
