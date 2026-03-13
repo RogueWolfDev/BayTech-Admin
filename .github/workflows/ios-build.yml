@@ -3,6 +3,8 @@ name: iOS Build
 on:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build:
@@ -12,15 +14,19 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Show Xcode Version
-        run: xcodebuild -version
-
       - name: Show Project Files
         run: |
+          echo "PWD:"
           pwd
+          echo "ROOT:"
           ls -la
+          echo "XCODEPROJ:"
           find . -name "*.xcodeproj"
+          echo "XCWORKSPACE:"
           find . -name "*.xcworkspace"
+
+      - name: Show Xcode Version
+        run: xcodebuild -version
 
       - name: Build App
         run: |
