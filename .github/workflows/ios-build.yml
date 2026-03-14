@@ -15,10 +15,30 @@ jobs:
       - name: Select Xcode
         run: sudo xcode-select -switch /Applications/Xcode.app
 
+      - name: Show files
+        run: |
+          echo "PWD:"
+          pwd
+          echo "ROOT:"
+          ls -la
+          echo "PROJECTS:"
+          find . -iname "*.xcodeproj"
+          echo "WORKSPACES:"
+          find . -iname "*.xcworkspace"
+
       - name: Build App
         run: |
+          PROJECT_PATH=$(find . -iname "*.xcodeproj" | head -n 1)
+
+          if [ -z "$PROJECT_PATH" ]; then
+            echo "No .xcodeproj found in repo"
+            exit 1
+          fi
+
+          echo "Using project: $PROJECT_PATH"
+
           xcodebuild \
-            -project "BayTech_Admin_SwiftUI_Files/Baytech Admin.xcodeproj" \
+            -project "$PROJECT_PATH" \
             -scheme "BayTech Admin" \
             -destination 'generic/platform=iOS Simulator' \
             build
