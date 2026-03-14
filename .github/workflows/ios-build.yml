@@ -15,21 +15,22 @@ jobs:
       - name: Select Xcode
         run: sudo xcode-select -switch /Applications/Xcode.app
 
-      - name: Check files
+      - name: Find Xcode project
         run: |
           echo "PWD:"
           pwd
-          echo "ROOT:"
-          ls -la
-          echo "LEVEL 2:"
-          find . -maxdepth 2 -print
-          echo "XCODE FILES:"
-          find . -maxdepth 6 \( -name "*.xcodeproj" -o -name "*.xcworkspace" \)
+          echo "PROJECTS:"
+          find . -name "*.xcodeproj"
+          echo "WORKSPACES:"
+          find . -name "*.xcworkspace"
 
       - name: Build App
         run: |
+          PROJECT_PATH=$(find . -name "*.xcodeproj" | head -n 1)
+          echo "Using project: $PROJECT_PATH"
+
           xcodebuild \
-            -project "BayTech Admin.xcodeproj" \
+            -project "$PROJECT_PATH" \
             -scheme "BayTech Admin" \
             -destination 'generic/platform=iOS Simulator' \
             build
