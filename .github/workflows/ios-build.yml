@@ -17,14 +17,19 @@ jobs:
 
       - name: Check files
         run: |
+          echo "PWD:"
           pwd
+          echo "ROOT:"
           ls -la
-          find . -maxdepth 5 -name "*.xcodeproj" -o -name "*.xcworkspace"
+          echo "LEVEL 2:"
+          find . -maxdepth 2 -print
+          echo "XCODE FILES:"
+          find . -maxdepth 6 \( -name "*.xcodeproj" -o -name "*.xcworkspace" \)
 
       - name: Build App
         run: |
           xcodebuild \
             -project "BayTech Admin.xcodeproj" \
             -scheme "BayTech Admin" \
-            -destination 'platform=iOS Simulator' \
+            -destination 'generic/platform=iOS Simulator' \
             build
