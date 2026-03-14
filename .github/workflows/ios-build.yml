@@ -18,12 +18,13 @@ jobs:
       - name: Check files
         run: |
           pwd
+          ls -la
           find . -maxdepth 5 -name "*.xcodeproj" -o -name "*.xcworkspace"
 
       - name: Build App
         run: |
           xcodebuild \
-            -project "BayTech_Admin_SwiftUI_Files/BayTech Admin.xcodeproj" \
+            -project "BayTech Admin.xcodeproj" \
             -scheme "BayTech Admin" \
             -destination 'platform=iOS Simulator,name=iPhone 15' \
             build
