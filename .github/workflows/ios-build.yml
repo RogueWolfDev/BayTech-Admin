@@ -39,6 +39,6 @@ jobs:
 
           xcodebuild \
             -project "$PROJECT_PATH" \
-            -scheme "BayTech Admin" \
+            -scheme "Baytech Admin" \
             -destination 'generic/platform=iOS Simulator' \
             build
