@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D695C5B12F60E11400EE2514 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = D695C5B02F60E11400EE2514 /* FirebaseAppCheck */; };
+		D695C5B32F60E11400EE2514 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = D695C5B22F60E11400EE2514 /* FirebaseAppDistribution-Beta */; };
+		D695C5B52F60E11400EE2514 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D695C5B42F60E11400EE2514 /* FirebaseAuth */; };
+		D695C5B72F60E11400EE2514 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D695C5B62F60E11400EE2514 /* FirebaseAuthCombine-Community */; };
+		D695C5B92F60E11400EE2514 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = D695C5B82F60E11400EE2514 /* FirebaseCore */; };
+		D695C5BB2F60E11400EE2514 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = D695C5BA2F60E11400EE2514 /* FirebaseCrashlytics */; };
+		D695C5BD2F60E11400EE2514 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D695C5BC2F60E11400EE2514 /* FirebaseFirestore */; };
+		D695C5BF2F60E11400EE2514 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D695C5BE2F60E11400EE2514 /* FirebaseFirestoreCombine-Community */; };
+		D695C5C12F60E11400EE2514 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = D695C5C02F60E11400EE2514 /* FirebaseFunctions */; };
+		D695C5C32F60E11400EE2514 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = D695C5C22F60E11400EE2514 /* FirebaseInstallations */; };
+		D695C5C52F60E11400EE2514 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = D695C5C42F60E11400EE2514 /* FirebaseMessaging */; };
+		D695C5C72F60E11400EE2514 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D695C5C62F60E11400EE2514 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D695C57F2F60DAA000EE2514 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D695C5692F60DA9E00EE2514 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D695C5702F60DA9E00EE2514;
+			remoteInfo = "Baytech Admin";
+		};
+		D695C5892F60DAA000EE2514 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D695C5692F60DA9E00EE2514 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D695C5702F60DA9E00EE2514;
+			remoteInfo = "Baytech Admin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D695C5712F60DA9E00EE2514 /* Baytech Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baytech Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D695C57E2F60DAA000EE2514 /* Baytech AdminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baytech AdminTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D695C5882F60DAA000EE2514 /* Baytech AdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baytech AdminUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D695C5AD2F60DD9E00EE2514 /* Exceptions for "Baytech Admin" folder in "Baytech AdminTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = D695C57D2F60DAA000EE2514 /* Baytech AdminTests */;
+		};
+		D695C5AE2F60DD9E00EE2514 /* Exceptions for "Baytech Admin" folder in "Baytech AdminUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = D695C5872F60DAA000EE2514 /* Baytech AdminUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D695C5732F60DA9E00EE2514 /* Baytech Admin */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D695C5AD2F60DD9E00EE2514 /* Exceptions for "Baytech Admin" folder in "Baytech AdminTests" target */,
+				D695C5AE2F60DD9E00EE2514 /* Exceptions for "Baytech Admin" folder in "Baytech AdminUITests" target */,
+			);
+			path = "Baytech Admin";
+			sourceTree = "<group>";
+		};
+		D695C5812F60DAA000EE2514 /* Baytech AdminTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Baytech AdminTests";
+			sourceTree = "<group>";
+		};
+		D695C58B2F60DAA000EE2514 /* Baytech AdminUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Baytech AdminUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D695C56E2F60DA9E00EE2514 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D695C5B12F60E11400EE2514 /* FirebaseAppCheck in Frameworks */,
+				D695C5BF2F60E11400EE2514 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				D695C5B92F60E11400EE2514 /* FirebaseCore in Frameworks */,
+				D695C5C12F60E11400EE2514 /* FirebaseFunctions in Frameworks */,
+				D695C5B52F60E11400EE2514 /* FirebaseAuth in Frameworks */,
+				D695C5C72F60E11400EE2514 /* FirebaseStorage in Frameworks */,
+				D695C5BB2F60E11400EE2514 /* FirebaseCrashlytics in Frameworks */,
+				D695C5B32F60E11400EE2514 /* FirebaseAppDistribution-Beta in Frameworks */,
+				D695C5B72F60E11400EE2514 /* FirebaseAuthCombine-Community in Frameworks */,
+				D695C5BD2F60E11400EE2514 /* FirebaseFirestore in Frameworks */,
+				D695C5C52F60E11400EE2514 /* FirebaseMessaging in Frameworks */,
+				D695C5C32F60E11400EE2514 /* FirebaseInstallations in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D695C57B2F60DAA000EE2514 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D695C5852F60DAA000EE2514 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D695C5682F60DA9E00EE2514 = {
+			isa = PBXGroup;
+			children = (
+				D695C5732F60DA9E00EE2514 /* Baytech Admin */,
+				D695C5812F60DAA000EE2514 /* Baytech AdminTests */,
+				D695C58B2F60DAA000EE2514 /* Baytech AdminUITests */,
+				D695C5722F60DA9E00EE2514 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D695C5722F60DA9E00EE2514 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D695C5712F60DA9E00EE2514 /* Baytech Admin.app */,
+				D695C57E2F60DAA000EE2514 /* Baytech AdminTests.xctest */,
+				D695C5882F60DAA000EE2514 /* Baytech AdminUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D695C5702F60DA9E00EE2514 /* Baytech Admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D695C5922F60DAA000EE2514 /* Build configuration list for PBXNativeTarget "Baytech Admin" */;
+			buildPhases = (
+				D695C56D2F60DA9E00EE2514 /* Sources */,
+				D695C56E2F60DA9E00EE2514 /* Frameworks */,
+				D695C56F2F60DA9E00EE2514 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D695C5732F60DA9E00EE2514 /* Baytech Admin */,
+			);
+			name = "Baytech Admin";
+			packageProductDependencies = (
+				D695C5B02F60E11400EE2514 /* FirebaseAppCheck */,
+				D695C5B22F60E11400EE2514 /* FirebaseAppDistribution-Beta */,
+				D695C5B42F60E11400EE2514 /* FirebaseAuth */,
+				D695C5B62F60E11400EE2514 /* FirebaseAuthCombine-Community */,
+				D695C5B82F60E11400EE2514 /* FirebaseCore */,
+				D695C5BA2F60E11400EE2514 /* FirebaseCrashlytics */,
+				D695C5BC2F60E11400EE2514 /* FirebaseFirestore */,
+				D695C5BE2F60E11400EE2514 /* FirebaseFirestoreCombine-Community */,
+				D695C5C02F60E11400EE2514 /* FirebaseFunctions */,
+				D695C5C22F60E11400EE2514 /* FirebaseInstallations */,
+				D695C5C42F60E11400EE2514 /* FirebaseMessaging */,
+				D695C5C62F60E11400EE2514 /* FirebaseStorage */,
+			);
+			productName = "Baytech Admin";
+			productReference = D695C5712F60DA9E00EE2514 /* Baytech Admin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D695C57D2F60DAA000EE2514 /* Baytech AdminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D695C5952F60DAA000EE2514 /* Build configuration list for PBXNativeTarget "Baytech AdminTests" */;
+			buildPhases = (
+				D695C57A2F60DAA000EE2514 /* Sources */,
+				D695C57B2F60DAA000EE2514 /* Frameworks */,
+				D695C57C2F60DAA000EE2514 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D695C5802F60DAA000EE2514 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D695C5812F60DAA000EE2514 /* Baytech AdminTests */,
+			);
+			name = "Baytech AdminTests";
+			packageProductDependencies = (
+			);
+			productName = "Baytech AdminTests";
+			productReference = D695C57E2F60DAA000EE2514 /* Baytech AdminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D695C5872F60DAA000EE2514 /* Baytech AdminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D695C5982F60DAA000EE2514 /* Build configuration list for PBXNativeTarget "Baytech AdminUITests" */;
+			buildPhases = (
+				D695C5842F60DAA000EE2514 /* Sources */,
+				D695C5852F60DAA000EE2514 /* Frameworks */,
+				D695C5862F60DAA000EE2514 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D695C58A2F60DAA000EE2514 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D695C58B2F60DAA000EE2514 /* Baytech AdminUITests */,
+			);
+			name = "Baytech AdminUITests";
+			packageProductDependencies = (
+			);
+			productName = "Baytech AdminUITests";
+			productReference = D695C5882F60DAA000EE2514 /* Baytech AdminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D695C5692F60DA9E00EE2514 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					D695C5702F60DA9E00EE2514 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					D695C57D2F60DAA000EE2514 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = D695C5702F60DA9E00EE2514;
+					};
+					D695C5872F60DAA000EE2514 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = D695C5702F60DA9E00EE2514;
+					};
+				};
+			};
+			buildConfigurationList = D695C56C2F60DA9E00EE2514 /* Build configuration list for PBXProject "Baytech Admin" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D695C5682F60DA9E00EE2514;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D695C5AF2F60E11400EE2514 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D695C5722F60DA9E00EE2514 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D695C5702F60DA9E00EE2514 /* Baytech Admin */,
+				D695C57D2F60DAA000EE2514 /* Baytech AdminTests */,
+				D695C5872F60DAA000EE2514 /* Baytech AdminUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D695C56F2F60DA9E00EE2514 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D695C57C2F60DAA000EE2514 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D695C5862F60DAA000EE2514 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D695C56D2F60DA9E00EE2514 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D695C57A2F60DAA000EE2514 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D695C5842F60DAA000EE2514 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D695C5802F60DAA000EE2514 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D695C5702F60DA9E00EE2514 /* Baytech Admin */;
+			targetProxy = D695C57F2F60DAA000EE2514 /* PBXContainerItemProxy */;
+		};
+		D695C58A2F60DAA000EE2514 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D695C5702F60DA9E00EE2514 /* Baytech Admin */;
+			targetProxy = D695C5892F60DAA000EE2514 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D695C5902F60DAA000EE2514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 57F75P2S74;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D695C5912F60DAA000EE2514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 57F75P2S74;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D695C5932F60DAA000EE2514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57F75P2S74;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RogueWolfUi.Baytech-Admin";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.RoogueWolfui.baytech-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		D695C5942F60DAA000EE2514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57F75P2S74;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RogueWolfUi.Baytech-Admin";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.RoogueWolfui.baytech-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		D695C5962F60DAA000EE2514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57F75P2S74;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RogueWolfUi.Baytech-AdminTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baytech Admin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Baytech Admin";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		D695C5972F60DAA000EE2514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57F75P2S74;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RogueWolfUi.Baytech-AdminTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baytech Admin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Baytech Admin";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		D695C5992F60DAA000EE2514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57F75P2S74;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RogueWolfUi.Baytech-AdminUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Baytech Admin";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		D695C59A2F60DAA000EE2514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57F75P2S74;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RogueWolfUi.Baytech-AdminUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "Baytech Admin";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D695C56C2F60DA9E00EE2514 /* Build configuration list for PBXProject "Baytech Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D695C5902F60DAA000EE2514 /* Debug */,
+				D695C5912F60DAA000EE2514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D695C5922F60DAA000EE2514 /* Build configuration list for PBXNativeTarget "Baytech Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D695C5932F60DAA000EE2514 /* Debug */,
+				D695C5942F60DAA000EE2514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D695C5952F60DAA000EE2514 /* Build configuration list for PBXNativeTarget "Baytech AdminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D695C5962F60DAA000EE2514 /* Debug */,
+				D695C5972F60DAA000EE2514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D695C5982F60DAA000EE2514 /* Build configuration list for PBXNativeTarget "Baytech AdminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D695C5992F60DAA000EE2514 /* Debug */,
+				D695C59A2F60DAA000EE2514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D695C5AF2F60E11400EE2514 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D695C5B02F60E11400EE2514 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D695C5AF2F60E11400EE2514 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		D695C5B22F60E11400EE2514 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D695C5AF2F60E11400EE2514 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		D695C5B42F60E11400EE2514 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D695C5AF2F60E11400EE2514 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D695C5B62F60E11400EE2514 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D695C5AF2F60E11400EE2514 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		D695C5B82F60E11400EE2514 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D695C5AF2F60E11400EE2514 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		D695C5BA2F60E11400EE2514 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D695C5AF2F60E11400EE2514 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		D695C5BC2F60E11400EE2514 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D695C5AF2F60E11400EE2514 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D695C5BE2F60E11400EE2514 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D695C5AF2F60E11400EE2514 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		D695C5C02F60E11400EE2514 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D695C5AF2F60E11400EE2514 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		D695C5C22F60E11400EE2514 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D695C5AF2F60E11400EE2514 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		D695C5C42F60E11400EE2514 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D695C5AF2F60E11400EE2514 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		D695C5C62F60E11400EE2514 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D695C5AF2F60E11400EE2514 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D695C5692F60DA9E00EE2514 /* Project object */;
+}
