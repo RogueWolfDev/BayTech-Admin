@@ -15,28 +15,14 @@ jobs:
       - name: Select Xcode
         run: sudo xcode-select -switch /Applications/Xcode.app
 
-      - name: Show files
+      - name: Find Project
         run: |
-          echo "PWD:"
-          pwd
-          echo "ROOT:"
-          ls -la
-          echo "PROJECTS:"
-          find . -iname "*.xcodeproj"
-          echo "WORKSPACES:"
-          find . -iname "*.xcworkspace"
+          PROJECT_PATH=$(find . -iname "*.xcodeproj" | head -n 1)
+          echo "PROJECT_PATH=$PROJECT_PATH" >> $GITHUB_ENV
+          echo "Using project: $PROJECT_PATH"
 
       - name: Build App
         run: |
-          PROJECT_PATH=$(find . -iname "*.xcodeproj" | head -n 1)
-
-          if [ -z "$PROJECT_PATH" ]; then
-            echo "No .xcodeproj found in repo"
-            exit 1
-          fi
-
-          echo "Using project: $PROJECT_PATH"
-
           xcodebuild \
             -project "$PROJECT_PATH" \
             -scheme "Baytech Admin" \
