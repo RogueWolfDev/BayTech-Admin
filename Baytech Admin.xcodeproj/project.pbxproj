@@ -44,30 +44,9 @@
 		D695C5882F60DAA000EE2514 /* Baytech AdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baytech AdminUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D695C5AD2F60DD9E00EE2514 /* Exceptions for "Baytech Admin" folder in "Baytech AdminTests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"GoogleService-Info.plist",
-			);
-			target = D695C57D2F60DAA000EE2514 /* Baytech AdminTests */;
-		};
-		D695C5AE2F60DD9E00EE2514 /* Exceptions for "Baytech Admin" folder in "Baytech AdminUITests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"GoogleService-Info.plist",
-			);
-			target = D695C5872F60DAA000EE2514 /* Baytech AdminUITests */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D695C5732F60DA9E00EE2514 /* Baytech Admin */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				D695C5AD2F60DD9E00EE2514 /* Exceptions for "Baytech Admin" folder in "Baytech AdminTests" target */,
-				D695C5AE2F60DD9E00EE2514 /* Exceptions for "Baytech Admin" folder in "Baytech AdminUITests" target */,
-			);
 			path = "Baytech Admin";
 			sourceTree = "<group>";
 		};
